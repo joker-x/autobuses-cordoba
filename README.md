@@ -11,7 +11,7 @@ Basta clonar este repositorio dentro del árbol web de tu servidor, o copiar/peg
 
 COMPARTIR, DIFUNDIR E INCRUSTAR EL MAPA
 ---------------------------------------
-Está diseñado para que sea muy fácil incluir el mapa en cualquier otra web o blog, empleando la etiqueta iframe. El ancho mínimo del mismo debe ser 960px o superior. Suele resultar útil darle un acho del 100% Ejemplo:
+Está diseñado para que sea muy fácil incluir el mapa en cualquier otra web o blog, empleando la etiqueta iframe. El ancho mínimo del mismo debe ser 960px o superior. Suele resultar útil darle un ancho del 100% Ejemplo:
 <pre>
 &lt;iframe src="http://joker-x.github.com/autobuses-cordoba/" width="960" height="600"&gt;&lt;iframe&gt;
 </pre>
