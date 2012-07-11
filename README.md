@@ -19,12 +19,13 @@ Está diseñado para que sea muy fácil incluir el mapa en cualquier otra web o 
 Puedes encontrar el mapa funcionando en http://joker-x.github.com/autobuses-cordoba/
 
 ESTÁNDARES INTERNACIONALES
-==========================
-* Cumple el estándar HTML5 del W3C:
-* Cumple el estándar CSS del W3C:
+--------------------------
+* Cumple el estándar HTML5 del W3C: http://validator.w3.org/check?uri=http%3A%2F%2Fjoker-x.github.com%2Fautobuses-cordoba%2F
+* Cumple el estándar CSS del W3C:http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fjoker-x.github.com%2Fautobuses-cordoba%2F
 
 OPTIMIZACIÓN: PRUEBAS DE RENDIMIENTO
 ====================================
+http://gtmetrix.com/reports/joker-x.github.com/Q4FpJh7d
 
 
 LICENCIA
