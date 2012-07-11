@@ -1,4 +1,33 @@
 autobuses-cordoba
 =================
 
-Mapa de la red de autobuses de la ciudad de Córdoba
+Mapa de la red de autobuses de la ciudad de Córdoba.
+
+Se trata de una página web estática escrita en HTML5+jQuery Tools.
+
+INSTALACIÓN
+===========
+Basta clonar este repositorio dentro del árbol web de tu servidor, o copiar/pegar el código fuente. Toda la lógica se ejecuta del lado del cliente, por lo que no es necesario ningún lenguaje del lado del servidor ni acceso a la base de datos.
+
+COMPARTIR, DIFUNDIR E INCRUSTAR EL MAPA
+=======================================
+Está diseñado para que sea muy fácil incluir el mapa en cualquier otra web o blog, empleando la etiqueta iframe. El ancho mínimo del mismo debe ser 960px o superior. Suele resultar útil darle un acho del 100% Ejemplo:
+<pre>
+&lt;iframe src="http://joker-x.github.com/autobuses-cordoba/" width="960" height="600"&gt;&lt;iframe&gt;
+</pre>
+
+Puedes encontrar el mapa funcionando en http://joker-x.github.com/autobuses-cordoba/
+
+ESTÁNDARES INTERNACIONALES
+==========================
+* Cumple el estándar HTML5 del W3C:
+* Cumple el estándar CSS del W3C:
+
+OPTIMIZACIÓN: PRUEBAS DE RENDIMIENTO
+====================================
+
+
+LICENCIA
+========
+GPL (General Public License)
+Iván Eixarch, 2012
