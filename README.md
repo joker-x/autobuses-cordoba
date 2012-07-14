@@ -16,7 +16,8 @@ Está diseñado para que sea muy fácil incluir el mapa en cualquier otra web o 
 &lt;iframe src="http://joker-x.github.com/autobuses-cordoba/" width="960" height="600"&gt;&lt;iframe&gt;
 </pre>
 
-Puedes encontrar el mapa funcionando en http://joker-x.github.com/autobuses-cordoba/
+Puedes encontrar el mapa funcionando en http://joker-x.github.com/autobuses-cordoba/ 
+
 También puedes encontrar un ejemplo del mapa incrustado en: http://www.aucorsa.es/informacion-al-usuario/red-de-lineas-de-servicio/plano-interactivo
 
 ESTÁNDARES INTERNACIONALES
