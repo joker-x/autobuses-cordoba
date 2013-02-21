@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8" />
 	<title>Autobuses urbanos de Córdoba</title>
-	<script src="http://cdn.jquerytools.org/1.2.7/jquery.tools.min.js" type="text/javascript"></script>
+	<script src="js/jquery.tools.min.js" type="text/javascript"></script>
 <style type="text/css">
 /* RESET.CSS
    http://meyerweb.com/eric/tools/css/reset/ 
@@ -60,7 +60,6 @@ table {
 */
 
 body {
-	/*background-color: #b3b3b3;*/
 	font-family:"Verdana",sans-serif;
 }
 
@@ -158,8 +157,10 @@ a {
 #botones .linea12:hover { background-color: #6aaf23;}
 #botones .linea13:hover { background-color: #a75d1e;}
 #botones .linea14:hover { background-color: #673a15;}
-#botones .lineaC1:hover { background-color: #fff; color: #a6962c;}
-#botones .lineaC2:hover { background-color: #fff; color: #ec8977;}
+
+#pdf li {
+   display:none;
+}
 
 </style>
 </head>
@@ -190,8 +191,23 @@ a {
 </div>
 
 <ul id="nav">
-<li><a href="img/autobuses-centro-cordoba.jpg">ZONA CENTRO</a></li>
-<li><a href="img/autobuses-cordoba.jpg">VER TODAS</a></li>
+<li><a href="pdf/autobuses-cordoba.pdf">VER TODAS</a></li>
+<div id="pdf">
+<li><a href="pdf/L1.pdf">Línea 1</a></li>
+<li><a href="pdf/L2.pdf">Línea 2</a></li>
+<li><a href="pdf/L3.pdf">Línea 3</a></li>
+<li><a href="pdf/L4.pdf">Línea 4</a></li>
+<li><a href="pdf/L5.pdf">Línea 5</a></li>
+<li><a href="pdf/L6.pdf">Línea 6</a></li>
+<li><a href="pdf/L7.pdf">Línea 7</a></li>
+<li><a href="pdf/L8.pdf">Línea 8</a></li>
+<li><a href="pdf/L9.pdf">Línea 9</a></li>
+<li><a href="pdf/L10.pdf">Línea 10</a></li>
+<li><a href="pdf/L11.pdf">Línea 11</a></li>
+<li><a href="pdf/L12.pdf">Línea 12</a></li>
+<li><a href="pdf/L13.pdf">Línea 13</a></li>
+<li><a href="pdf/L14.pdf">Línea 14</a></li>
+</div>
 </ul>
 
 <ol id="botones">
@@ -209,8 +225,6 @@ a {
 <li class="linea12"><a href="img/linea-12.jpg" title="Línea 12">12</a></li>
 <li class="linea13"><a href="img/linea-13.jpg" title="Línea 13">13</a></li>
 <li class="linea14"><a href="img/linea-14.jpg" title="Línea 14">14</a></li>
-<li class="lineaC1"><a href="img/linea-C1.jpg" title="Línea C1">C1</a></li>
-<li class="lineaC2"><a href="img/linea-C2.jpg" title="Línea C2">C2</a></li>
 </ol>
 
 <script type="text/javascript">
@@ -223,6 +237,13 @@ var config = {
 $('#botones').tabs('#capas > li', config);
 
 $('#nav a').attr('target', '_blank');
+
+$('#botones a').click(function(e) {
+  var num_linea = parseInt($(this).text());
+  num_linea--;
+  $('#pdf li').hide();
+  $('#pdf li:eq('+num_linea+')').show();
+});
 
 </script>
 
