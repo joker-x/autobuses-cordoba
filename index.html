@@ -158,8 +158,6 @@ a {
 #botones .linea13:hover { background-color: #a75d1e;}
 #botones .linea14:hover { background-color: #673a15;}
 
-#botones .todas { width:auto; background-color: #000; }
-
 #pdf li {
    display:none;
 }
@@ -171,7 +169,6 @@ a {
 
 <div id="callejero">
 <ol id="capas">
-<li><img src="img/todas.jpg" alt="Líneas urbanas"></li>
 <li><img src="img/linea-1.jpg" alt="Línea 1"></li>
 <li><img src="img/linea-2.jpg" alt="Línea 2"></li>
 <li><img src="img/linea-3.jpg" alt="Línea 3"></li>
@@ -213,7 +210,6 @@ a {
 </ul>
 
 <ol id="botones">
-<li class="todas"><a href="img/todas.jpg"  title="Líneas urbanas">Todas</a></li>
 <li class="linea1"><a href="img/linea-1.jpg"  title="Línea 1">1</a></li>
 <li class="linea2"><a href="img/linea-2.jpg"  title="Línea 2">2</a></li>
 <li class="linea3"><a href="img/linea-3.jpg"  title="Línea 3">3</a></li>
@@ -234,8 +230,8 @@ a {
 
 var config = {
 	effect: 'fade',
-	//initialIndex: -1
-	initialIndex: 0
+	initialIndex: -1
+	//initialIndex: 0
 };
 
 $('#botones').tabs('#capas > li', config);
